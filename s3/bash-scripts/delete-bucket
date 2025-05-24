@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+echo "==deleting bucket"
+
+BUCKET_NAME=$1
+
+aws s3api delete-bucket \
+--bucket $BUCKET_NAME
+
+
+if [ $? -eq 0 ]; then        # This checks if it succeeded
+    echo "Bucket Deleted: $BUCKET_NAME"
+else
+    echo "Failure"
+fi
