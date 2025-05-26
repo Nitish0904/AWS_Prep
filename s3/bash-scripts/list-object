@@ -2,7 +2,12 @@
 
 echo "==listing objects"
 
+if [ -z "$1" ]; then
+    echo "There needs to be a BucketName. Usage: ./put-object <bucket-name> <file-path>"
+    exit 1
+fi
+
 BUCKET_NAME=$1
 
-aws s3api list-objects \
+aws s3api list-objects-v2 \
 --bucket $BUCKET_NAME

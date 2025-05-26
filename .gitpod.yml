@@ -1,4 +1,7 @@
 tasks:
+  - name: utils
+    before:
+      sudo apt-get install tree
   - name: aws-cli
     env:
       AWS_CLI_AUTO_PROMPT: on-partial
@@ -8,3 +11,7 @@ tasks:
       unzip awscliv2.zip
       sudo ./aws/install
       cd $THEIA_WORKSPACE_ROOT
+
+
+# chmod u+x s3/bash-scripts/create-bucket -- this command puts the create-bucket file into execution
+# so whenever we create new files, gotta use it to put it into execution

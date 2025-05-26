@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b98ea0d3-266d-4167-bf14-e4c31b587c7f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitpod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.gitpod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/awscliv2.zip" beforeDir="false" afterPath="$PROJECT_DIR$/awscliv2.zip" afterDir="false" />
-    </list>
+    <list default="true" id="b98ea0d3-266d-4167-bf14-e4c31b587c7f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,6 +67,7 @@
       <workItem from="1748118021782" duration="607000" />
       <workItem from="1748124698657" duration="604000" />
       <workItem from="1748126271634" duration="93000" />
+      <workItem from="1748285788495" duration="231000" />
     </task>
     <servers />
   </component>
